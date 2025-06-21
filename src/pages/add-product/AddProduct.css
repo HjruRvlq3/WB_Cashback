@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .add-product__form {
     display: flex;
     flex-direction: column;
@@ -16,22 +15,3 @@
 .add-product__inupt label {
     font-size: 18px;
 }
-=======
-.add-product__form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;    
-}
-
-.add-product__inupt {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-}
-
-.add-product__inupt label {
-    font-size: 18px;
-}
->>>>>>> 529fbc0 (New commit)
