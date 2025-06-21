@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-// Input.js
 import React from "react"
 import './Input.css'
 
@@ -16,22 +14,3 @@ class Input extends React.Component {
 }
 
 export default Input
-=======
-// Input.js
-import React from "react"
-import './Input.css'
-
-class Input extends React.Component {
-    render() {
-        return (
-            <input 
-                type="text" 
-                className="default-input"
-                {...this.props} // Передаёт все полученные пропсы внутрь <input>
-            />
-        )
-    }
-}
-
-export default Input
->>>>>>> 529fbc0 (New commit)
