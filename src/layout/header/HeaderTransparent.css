@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .header-transparent {
     padding: 20px 10px 0 10px;
 }
@@ -8,14 +7,3 @@
     font-size: 20px;
     color: #091824;
 }
-=======
-.header-transparent {
-    padding: 20px 10px 0 10px;
-}
-
-.header-transparent span {
-    font-weight: 600;
-    font-size: 20px;
-    color: #091824;
-}
->>>>>>> 529fbc0 (New commit)
