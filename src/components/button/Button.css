@@ -1,0 +1,39 @@
+<<<<<<< HEAD
+.default-button {
+    background: #112534;
+    border-radius: 30px;
+    width: 284px;
+    height: 50px;    
+
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffff;
+}
+
+.default-button:active {
+    background: #091824;
+    width: 282px;
+    height: 48px;
+    font-size: 16px;
+    margin-top: 1px
+}
+=======
+.default-button {
+    background: #112534;
+    border-radius: 30px;
+    width: 284px;
+    height: 50px;    
+
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffff;
+}
+
+.default-button:active {
+    background: #091824;
+    width: 282px;
+    height: 48px;
+    font-size: 16px;
+    margin-top: 1px
+}
+>>>>>>> 529fbc0 (New commit)
