@@ -56,6 +56,36 @@ class AddProductForm extends React.Component {
                         onChange={this.handleInputChange}
                     />
                 </div>
+
+                {/* Фото товара */}
+                <div className="add-product__inupt">
+                    <label>Фото товара</label>
+                    <input
+                        type="file"
+                        accept="image/*"
+                        onChange={this.handlePhotoChange}
+                        ref={(ref) => (this.fileInputRef = ref)}
+                        style={{ display: "none" }}
+                    />
+                    
+                    <div 
+                        className="upload-preview" 
+                        onClick={this.triggerFileInput}
+                    >
+                        {this.state.photoPreview ? (
+                            <img 
+                                src={this.state.photoPreview} 
+                                alt="Выбранное фото" 
+                                className="preview-image"
+                            />
+                        ) : (
+                            <span className="upload-placeholder">
+                                Выберите фото товара
+                            </span>
+                        )}
+                    </div>
+                </div>
+
             </form>
         );
     }
